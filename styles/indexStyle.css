@@ -1,11 +1,13 @@
 /* Scss Document */
-body{
+body
+{
 	background-image: url("../images/pattern.jpg");
 	background-size: 200px;
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-h1,h2,h3{
+h1,h2,h3
+{
 	font-weight: bold;
 }
 
@@ -14,65 +16,90 @@ h1,h2,h3{
 	margin-right: 4%;
 }
 
-.card-group{
+.card-group
+{
 	margin-bottom: 5%;	
 }
-.card-img-top{
+.card-img-top
+{
 	padding: 2%;
 }
 
-.FB-spacebetwen-column{
+.FB-spacebetwen-column
+{
 	display: flex;
 	flex-direction: column;
   justify-content: space-between;
 }
 
-.Vspace{
+.Vspace
+{
 	padding-top: 1em;
 	padding-bottom: 2em;
 }
 
-.bg-Main{
+.bg-Main
+{
 	background: #194aa3;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to bottom, #5881cc, #194aa3);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to bottom, #5881cc, #194aa3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
-.bg-Mcard{
+.bg-Mcard
+{
 	background: #000000ee;
 }
 
-.bg-Scard{
+.bg-Scard
+{
 	background: #1f1f1f;
 }
 
-.Justified{
+.Justified
+{
 	text-align: justify;
 }
 
-.Centered{
+.Centered
+{
 	text-align: center;
 }
 
-@media (max-width: 1024px){
-	p{
+.Laling
+{
+	text-align: left;
+}
+
+
+@media (max-width: 1024px)
+{
+	p
+	{
 		font-size: smaller;
 	}
-	h1,h2{
+
+	h1,h2
+	{
 		font-size: x-large;
 	}
-	h3{
+
+	h3
+	{
 		font-size: large;
 	}
-	h4{
+
+	h4
+	{
 		font-size: medium;
 	}
-	#Logo-Hili{
+	#Logo-Hili
+	{
 	height: 3em;
 	width: 3em;
 	margin-right: 2em;
 	}
+
 	.Product-card
 	{
 		margin: 3vh;
@@ -80,20 +107,29 @@ background: linear-gradient(to bottom, #5881cc, #194aa3); /* W3C, IE 10+/ Edge, 
 	}
 }
 
-@media (min-width: 1025px){
-	p{
+@media (min-width: 1025px)
+{
+	p
+	{
 		font-size: medium;
 	}
-	h1,h2{
+
+	h1,h2
+	{
 		font-size: xx-large;
 	}
+
 	h3{
+
 		font-size: x-large;
 	}
-	h4{
+
+	h4
+	{
 		font-size: larger;
 	}
-	#Logo-Hili{
+	#Logo-Hili
+	{
 	height: 4em;
 	width: 4em;
 	margin-right: 2em;
