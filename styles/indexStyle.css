@@ -74,7 +74,7 @@ background: linear-gradient(to bottom, #5881cc, #194aa3); /* W3C, IE 10+/ Edge, 
 
 @media (max-width: 1024px)
 {
-	p
+	p,a
 	{
 		font-size: smaller;
 	}
@@ -84,12 +84,12 @@ background: linear-gradient(to bottom, #5881cc, #194aa3); /* W3C, IE 10+/ Edge, 
 		font-size: x-large;
 	}
 
-	h3
+	h3,a
 	{
 		font-size: large;
 	}
 
-	h4
+	h4,a
 	{
 		font-size: medium;
 	}
@@ -119,12 +119,13 @@ background: linear-gradient(to bottom, #5881cc, #194aa3); /* W3C, IE 10+/ Edge, 
 		font-size: xx-large;
 	}
 
-	h3{
+	h3
+	{
 
 		font-size: x-large;
 	}
 
-	h4
+	h4,a
 	{
 		font-size: larger;
 	}
@@ -151,7 +152,6 @@ background: linear-gradient(to bottom, #5881cc, #194aa3); /* W3C, IE 10+/ Edge, 
 	padding:0;
 	list-style:none;
 	text-align:center;
-	font-size:18px;
 	line-height:1.6;
 	margin-bottom:0;
   }
