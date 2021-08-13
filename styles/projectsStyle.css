@@ -84,7 +84,7 @@ background: linear-gradient(to bottom, #5881cc, #194aa3); /* W3C, IE 10+/ Edge, 
 
 @media (max-width: 1024px)
 {
-	p,a
+	p,a,th,td
 	{
 		font-size: smaller;
 	}
@@ -119,7 +119,7 @@ background: linear-gradient(to bottom, #5881cc, #194aa3); /* W3C, IE 10+/ Edge, 
 
 @media (min-width: 1025px)
 {
-	p
+	p, th, td
 	{
 		font-size: medium;
 	}
@@ -211,4 +211,16 @@ background: linear-gradient(to bottom, #5881cc, #194aa3); /* W3C, IE 10+/ Edge, 
 	margin-bottom:0;
   }
   
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid rgb(51, 51, 51);
+}
 
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #252525}
