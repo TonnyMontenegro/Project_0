@@ -71,16 +71,6 @@ background: linear-gradient(to bottom, #5881cc, #194aa3); /* W3C, IE 10+/ Edge, 
 	text-align: left;
 }
 
-.Amarillo
-{
-	color: yellow;
-}
-
-.Rojo
-{
-	color: red;
-}
-
 
 @media (max-width: 1024px)
 {
@@ -114,6 +104,7 @@ background: linear-gradient(to bottom, #5881cc, #194aa3); /* W3C, IE 10+/ Edge, 
 	{
 		margin: 3vh;
 		margin-bottom: 10vh;
+		height: 90vh;
 	}
 }
 
@@ -147,7 +138,8 @@ background: linear-gradient(to bottom, #5881cc, #194aa3); /* W3C, IE 10+/ Edge, 
 	}
 	.Product-card
 	{
-		margin: 10vh;			
+		margin: 10vh;
+		height: 85vh;			
 	}
 }
 
